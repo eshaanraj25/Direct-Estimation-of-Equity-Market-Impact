@@ -1,9 +1,9 @@
-# Market Impact Model
+# Direct Estimation of Equity Market Impact
 
 ## Description
 
 This project aims to develop an impact model for algorithmic trading and quantitative strategies, inspired by Almgren et al.'s "Direct Estimation of Equity Market Impact."
-Reference: [Direct Estimation of Equity Market Impact](https://www.cis.upenn.edu/~mkearns/finread/costestim.pdf)
+
 
 ## Objective
 
@@ -28,7 +28,7 @@ To preprocess and prepare data: `python Preprocessing.py` and `python Inputs.py`
 Execute the main script: `python impactModel.py` <br>
 
 Note: You need to have the raw TAQ dataset in your directory in order to run the preprocessing tests. 
-Only the parametric bootstrapping test for regression ([Test_regression.py](https://github.com/ssnyu/Market-Impact-Model/blob/main/Tests/Test_regression.py)) can be run without the raw dataset.
+Only the parametric bootstrapping test for regression [Test_regression.py] can be run without the raw dataset.
 
 ## Results
 According to the non-linear regression equations:
@@ -43,15 +43,14 @@ $T$: time
 
 We discovered $\eta = 0.33244$, $\beta = 0.36127$.
 
-The analysis of the fit of the model are in [descriptiveStats.ipynb](https://github.com/ssnyu/Market-Impact-Model/blob/main/descriptiveStats.ipynb)
+The analysis of the fit of the model are in [descriptiveStats.ipynb]
 
 
-
-## Supplementary 
-
-### Directory structure - [Directory.ReadME](https://github.com/ssnyu/Market-Impact-Model/blob/main/Directory.md)
 
 ## Team Members
 
-- [Shubham Singh](https://github.com/ssnyu) NetID: sks9437
-- [Tianqi Wang](https://github.com/foggyleo) NetID: tw2250
+- [Eshaan Raj Sharma]
+- [Palkaran Kaur]
+- [Utsav Sharma]
+
+Citation: https://www.cis.upenn.edu/~mkearns/finread/costestim.pdf
